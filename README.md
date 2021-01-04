@@ -1,5 +1,7 @@
 # Quantifying-Political-Polarization
 
+Dataset abtracted from https://www.kaggle.com/snapcrack/all-the-news
+
 This project was my undergraduate thesis that had two main goals - build an accurate classifier of news article political bias and use said classifier to see how polarization occurred in major news sources over the course of the 2016 election period.
 
 ### Project TL;DR:
@@ -12,4 +14,8 @@ Results - The SVM algorithm was able to achieve ~ 80% accuracy between a 5 label
 
 ### Folder Contents:
 
-Code - Jupyter Notebooks containing the code to classfication and time series analysis
+Code:
+  Political_Bias_Classifier - Processes and classifies the articles into 5 categories
+  Polarization_Graphs - Uses the classifier to identify trends in major news sources over time
+  
+Data: Links to the data for Political_Bias_Classifier (Classifier_Data.csv) and Polarization_Graphs (Trend_Data.csv)
